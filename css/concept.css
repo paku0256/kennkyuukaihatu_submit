@@ -1,10 +1,10 @@
 .title {
     height: 310px;
-    background-image: url(../images/concept/kaguya_suro.jpg);
+    background-image: url(../images/concept/kaguya_suro.jpg); /* スロット用の画像 */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* 余白が見える可能性があるので背景色を指定 */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,26 +12,27 @@
     color: #ffffff;
 }
 
+/* パチンコ用の背景画像 */
 .pachinko-title {
-    background-image: url(../images/concept/kaguya_pati.jpg);
-    background-position: center center;
-    background-size: contain;
-    background-color: #f0f0f0;
+    background-image: url(../images/concept/kaguya_pati.jpg); /* パチンコ用の画像 */
+    background-position: center center; /* 全体表示ならcenter centerが最も一般的 */
+    background-size: contain; /* contain に変更 */
+    background-color: #f0f0f0; /* 余白が見える可能性があるので背景色を指定 */
 }
 
 .title h1 {
     font-family: 'Cherry Bomb One', cursive;
     font-size: 3.5em;
-    color: #ff0000;
+    color: #ff0000; /* h1の文字色を鮮やかな赤に変更 */
     margin-bottom: 10px;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9); /* h1の影をさらに強調 */
 }
 
 .title p {
-    font-size: 1.5em;
+    font-size: 1.5em; /* 文字サイズをさらに大きく */
     margin-top: 15px;
-    color: #ff0000;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    color: #ff0000; /* ここをh1と同じ鮮やかな赤に変更 */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* pタグの影をさらに強調 */
 }
 
 .feature {
