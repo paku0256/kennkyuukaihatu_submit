@@ -1,0 +1,38 @@
+.access {
+  padding: 40px;
+  text-align: center;
+}
+
+.access h2 {
+  color: #e91e63;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.access h3 {
+  margin-top: 30px;
+  color: #333;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.access p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.access iframe {
+  display: block;
+  width: 90%;
+  max-width: 800px;
+  height: 450px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}

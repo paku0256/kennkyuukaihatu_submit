@@ -1,0 +1,87 @@
+.members {
+  background-color: #f8f8f8;
+  padding: 40px;
+}
+
+.members h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.members h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.member-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.member-list li {
+  flex-shrink: 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.member-list li:first-child {
+  margin-left: 0;
+}
+
+.member-list li img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.member-list li dl {
+    margin-bottom: 10px;
+}
+
+.member-list li dt {
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 5px;
+}
+
+.member-list li dd {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.member-list li .speciality {
+    font-size: 0.9em;
+    color: #777;
+}
+
+@media (max-width: 800px) {
+  .member-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .member-list li {
+    width: auto;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+nav.floating {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+}
+
+.first-view {
+    height: calc(100vh - 100px);
+    background-image: url('../images/index/kaguya_heart_ending.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.first-view-text {
+    max-width: 80%;
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.first-view-text h1 {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 4em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.first-view-text p {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.lead {
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.floating ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.floating ul li a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #e91e63;
+    transition: background-color 0.3s ease;
+}
+
+.floating ul li a:hover {
+    background-color: #fce4ec;
+}
